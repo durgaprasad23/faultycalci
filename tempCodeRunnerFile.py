@@ -1,22 +1,7 @@
-print("Enter the operator:")
-op = input()
-print("Enter 2 numbers: ")
-n1 = int(input())
-n2 = int(input())
+i = input("Enter a no:")
+i = int(input())
+n = 1
+for j in i:
+   n = n+ n *j
 
-if(n1 == 45 and n2 == 3 and op == "*"):
-    print("result is: 555")
-elif(n1 == 56 and n2 == 9 and op == "+"):
-    print("reslut is: 77")
-elif(n1 == 56 and n2 == 6 and op == "/"):
-    print("result is: 4")    
-elif(op == "*"):
-    print("result:",n1*n2)
-elif(op == "+"):  
-    print("result:",n1+n2)
-elif(op == "-"):
-    print("result:",n1-n2)
-elif(op == "/"):
-    print("result:",n1/n2)
-
-     
+print("result is:",n)
